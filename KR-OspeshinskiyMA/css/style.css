@@ -160,7 +160,7 @@ h2 {
 	background: url(../content/background2.jpg);
 }
 
-.pg {
+.article {
 	width: 99%;
 	margin: 0;
 	padding: 0;
@@ -239,7 +239,7 @@ td {
 
 #about {
 	width: 100%;
-	min-height: calc(100% - 197px);
+	min-height: calc(100% - 218px);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -252,7 +252,7 @@ td {
 
 }
 
-.gal {
+.gallery {
 	height: 100% !important;
 	margin: 0;
 	padding: 0;
@@ -263,7 +263,7 @@ td {
 	background: url(../content/background2.jpg);
 }
 
-.gal>div {
+.gallery>div {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
@@ -271,12 +271,12 @@ td {
 	justify-content: space-around;
 }
 
-.gal div p {
+.gallery div p {
 	text-align: center;
 	margin-bottom: 30px;
 }
 
-.gal div img {
+.gallery div img {
 	border: white solid 2px;
 	margin-top: 15px;
 }
@@ -304,9 +304,7 @@ span {
 	font-size: 15pt;
 }
 
-
-
-#sixPage {
+#basement {
 	width: 100%;
 	overflow: hidden;
 	margin: 0;
@@ -400,6 +398,10 @@ h1 {
 	background-color: lightblue;
 }
 
+.git {
+	font-size: 1.3em;
+}
+
 @media screen and (max-width: 768px) {
 	.startBlock img {
 		width: 70%;
@@ -429,11 +431,11 @@ h1 {
 		font-size: 10pt;
 	}
 
-	.gal div img {
+	.gallery div img {
 		width: 70%;
 	}
 
-	.gal div p {
+	.gallery div p {
 		font-size: 12pt;
 	}
 
@@ -485,7 +487,7 @@ h1 {
 		font-size: 10pt;
 	}
 
-	.gal div p {
+	.gallery div p {
 		font-size: 12pt;
 	}
 
