@@ -309,6 +309,11 @@ span {
 .footer-column p {
 	margin: 14px 0;
 	font-size: 14pt;
+	text-indent: 0;
+}
+
+.footer-column * {
+	word-wrap: break-word;
 }
 
 .timer {
